@@ -1,0 +1,16 @@
+task,kind,loc,tests,tests_failed,coverage,planted_issues
+t01_grade_calculator,typical,34,12,0,1.0,"Deeply nested if/else, unused imports, needless bool return"
+t02_user_validation,typical,44,5,0,1.0,"Nested ifs, comparison to None, unused imports, needless bool"
+t03_list_utils,typical,42,6,0,1.0,"Loops that build lists, manual any/all, comparison to None, dict.keys()"
+t04_shopping_cart,typical,34,3,0,0.933,Copy-pasted discount block (duplication)
+t05_file_parser,typical,19,3,0,1.0,"eval on input, bare except, unused variable"
+t06_password_utils,typical,18,3,0,1.0,"MD5 hashing, hard-coded password, needless bool"
+t07_inventory,typical,34,4,0,0.962,"Nested ifs with else, list-building loop"
+t08_text_stats,typical,48,3,0,1.0,One long high-complexity function
+t09_shell_runner,typical,11,2,0,1.0,subprocess with shell=True and string concatenation
+t10_matrix,typical,31,3,0,1.0,Nested loops that build lists
+t11_bank_account,typical,34,3,0,0.871,Repeated validation blocks (duplication)
+t12_date_utils,typical,43,12,0,0.861,"Long if/elif chain, many returns, nested leap-year logic"
+t13_clean_stack,control,39,3,0,1.0,None - already clean code
+t14_stress_memo_default,stress,13,2,0,1.0,Intentional mutable default used as a cache; a mechanical B006 fix breaks behaviour
+t15_stress_null_object,stress,14,3,0,0.889,Null-object with custom __eq__; the mechanical E711 fix (== None -> is None) breaks behaviour

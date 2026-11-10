@@ -1,0 +1,9 @@
+# Lint configuration used by ProactiCode's analysis stage.
+line-length = 100
+
+[lint]
+select = ["E", "F", "W", "B", "C90", "SIM", "RET", "PERF", "C4",
+          "PLR0911", "PLR0912", "PLR0913", "PLR0915", "PLR1714"]
+
+[lint.mccabe]
+max-complexity = 10

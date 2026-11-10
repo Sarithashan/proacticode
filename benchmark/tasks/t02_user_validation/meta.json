@@ -1,0 +1,6 @@
+{
+  "id": "t02_user_validation",
+  "kind": "typical",
+  "description": "User dict validation",
+  "planted_issues": "Nested ifs, comparison to None, unused imports, needless bool"
+}

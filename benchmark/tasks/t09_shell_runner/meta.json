@@ -1,0 +1,6 @@
+{
+  "id": "t09_shell_runner",
+  "kind": "typical",
+  "description": "Run shell commands",
+  "planted_issues": "subprocess with shell=True and string concatenation"
+}

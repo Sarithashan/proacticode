@@ -1,0 +1,6 @@
+{
+  "id": "t04_shopping_cart",
+  "kind": "typical",
+  "description": "Cart totals with discounts",
+  "planted_issues": "Copy-pasted discount block (duplication)"
+}

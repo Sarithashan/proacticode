@@ -1,0 +1,6 @@
+{
+  "id": "t14_stress_memo_default",
+  "kind": "stress",
+  "description": "Memoised fibonacci",
+  "planted_issues": "Intentional mutable default used as a cache; a mechanical B006 fix breaks behaviour"
+}

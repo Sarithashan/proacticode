@@ -1,0 +1,15 @@
+{"time": "2026-11-10T07:01:28+00:00", "task": "t01_grade_calculator", "system": "D_proacticode", "risk": 5.3, "category": "Low", "warnings": 0, "max_cc": 8, "decision": "Approve"}
+{"time": "2026-11-10T07:01:38+00:00", "task": "t02_user_validation", "system": "D_proacticode", "risk": 10.23, "category": "Low", "warnings": 1, "max_cc": 10, "decision": "Flag for review"}
+{"time": "2026-11-10T07:01:50+00:00", "task": "t03_list_utils", "system": "D_proacticode", "risk": 2.0, "category": "Low", "warnings": 2, "max_cc": 3, "decision": "Flag for review"}
+{"time": "2026-11-10T07:02:00+00:00", "task": "t04_shopping_cart", "system": "D_proacticode", "risk": 11.41, "category": "Low", "warnings": 0, "max_cc": 4, "decision": "Flag for review"}
+{"time": "2026-11-10T07:02:12+00:00", "task": "t05_file_parser", "system": "D_proacticode", "risk": 8.1, "category": "Low", "warnings": 3, "max_cc": 3, "decision": "Flag for review"}
+{"time": "2026-11-10T07:02:23+00:00", "task": "t06_password_utils", "system": "D_proacticode", "risk": 10.2, "category": "Low", "warnings": 0, "max_cc": 1, "decision": "Request changes"}
+{"time": "2026-11-10T07:02:34+00:00", "task": "t07_inventory", "system": "D_proacticode", "risk": 1.6, "category": "Low", "warnings": 1, "max_cc": 4, "decision": "Flag for review"}
+{"time": "2026-11-10T07:02:45+00:00", "task": "t08_text_stats", "system": "D_proacticode", "risk": 16.24, "category": "Low", "warnings": 2, "max_cc": 12, "decision": "Flag for review"}
+{"time": "2026-11-10T07:02:56+00:00", "task": "t09_shell_runner", "system": "D_proacticode", "risk": 17.5, "category": "Low", "warnings": 0, "max_cc": 1, "decision": "Request changes"}
+{"time": "2026-11-10T07:03:06+00:00", "task": "t10_matrix", "system": "D_proacticode", "risk": 1.1, "category": "Low", "warnings": 2, "max_cc": 4, "decision": "Flag for review"}
+{"time": "2026-11-10T07:03:17+00:00", "task": "t11_bank_account", "system": "D_proacticode", "risk": 11.55, "category": "Low", "warnings": 0, "max_cc": 4, "decision": "Flag for review"}
+{"time": "2026-11-10T07:03:28+00:00", "task": "t12_date_utils", "system": "D_proacticode", "risk": 18.94, "category": "Low", "warnings": 3, "max_cc": 14, "decision": "Flag for review"}
+{"time": "2026-11-10T07:03:39+00:00", "task": "t13_clean_stack", "system": "D_proacticode", "risk": 0.58, "category": "Low", "warnings": 0, "max_cc": 2, "decision": "Approve"}
+{"time": "2026-11-10T07:03:50+00:00", "task": "t14_stress_memo_default", "system": "D_proacticode", "risk": 1.67, "category": "Low", "warnings": 2, "max_cc": 3, "decision": "Flag for review"}
+{"time": "2026-11-10T07:04:01+00:00", "task": "t15_stress_null_object", "system": "D_proacticode", "risk": 2.11, "category": "Low", "warnings": 2, "max_cc": 3, "decision": "Flag for review"}

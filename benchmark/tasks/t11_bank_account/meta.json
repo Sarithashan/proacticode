@@ -1,0 +1,6 @@
+{
+  "id": "t11_bank_account",
+  "kind": "typical",
+  "description": "Bank account class",
+  "planted_issues": "Repeated validation blocks (duplication)"
+}

@@ -1,0 +1,61 @@
+task,kind,system,warnings_before,warnings_after,max_cc_before,max_cc_after,dup_before,dup_after,bandit_before,bandit_after,tests_failed_before,tests_failed_after,coverage_after,risk_before,risk_after,category_before,category_after,decision,reverted,regression,changed_lines,n_recommendations,time_s
+t01_grade_calculator,typical,A_static_only,9,9,8,8,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,2.10041860002093
+t01_grade_calculator,typical,B_rule_risk,9,9,8,8,0.0,0.0,0,0,0,0,1.0,8.94,8.94,Low,Low,,False,False,0,0,2.437758299987763
+t01_grade_calculator,typical,C_naive_autofix,9,0,8,8,0.0,0.0,0,0,0,0,1.0,8.94,5.3,Low,Low,,False,False,23,0,4.688392399984878
+t01_grade_calculator,typical,D_proacticode,9,0,8,8,0.0,0.0,0,0,0,0,1.0,8.94,5.3,Low,Low,Approve,False,False,23,9,4.237879499967676
+t02_user_validation,typical,A_static_only,6,6,10,10,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.5899912999593653
+t02_user_validation,typical,B_rule_risk,6,6,10,10,0.0,0.0,0,0,0,0,1.0,12.66,12.66,Low,Low,,False,False,0,0,2.000246200012043
+t02_user_validation,typical,C_naive_autofix,6,1,10,10,0.0,0.0,0,0,0,0,1.0,12.66,10.23,Low,Low,,False,False,7,0,4.054531600035261
+t02_user_validation,typical,D_proacticode,6,1,10,10,0.0,0.0,0,0,0,0,1.0,12.66,10.23,Low,Low,Flag for review,False,False,7,6,3.9180499999783933
+t03_list_utils,typical,A_static_only,6,6,3,3,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.573308699997142
+t03_list_utils,typical,B_rule_risk,6,6,3,3,0.0,0.0,0,0,0,0,1.0,4.02,4.02,Low,Low,,False,False,0,0,1.9275939000071958
+t03_list_utils,typical,C_naive_autofix,6,2,3,3,0.0,0.0,0,0,0,0,1.0,4.02,2.0,Low,Low,,False,False,10,0,4.161682799982373
+t03_list_utils,typical,D_proacticode,6,2,3,3,0.0,0.0,0,0,0,0,1.0,4.02,2.0,Low,Low,Flag for review,False,False,10,6,4.474157999968156
+t04_shopping_cart,typical,A_static_only,0,0,4,4,0.8,0.8,0,0,0,0,,,,,,,False,False,0,0,0.5737599999993108
+t04_shopping_cart,typical,B_rule_risk,0,0,4,4,0.8,0.8,0,0,0,0,0.933,11.41,11.41,Low,Low,,False,False,0,0,1.9125326999928802
+t04_shopping_cart,typical,C_naive_autofix,0,0,4,4,0.8,0.8,0,0,0,0,0.933,11.41,11.41,Low,Low,,False,False,0,0,3.895413600024767
+t04_shopping_cart,typical,D_proacticode,0,0,4,4,0.8,0.8,0,0,0,0,0.933,11.41,11.41,Low,Low,Flag for review,False,False,0,9,3.90708520001499
+t05_file_parser,typical,A_static_only,5,5,3,3,0.0,0.0,1,1,0,0,,,,,,,False,False,0,0,0.6353730999981053
+t05_file_parser,typical,B_rule_risk,5,5,3,3,0.0,0.0,1,1,0,0,1.0,8.67,8.67,Low,Low,,False,False,0,0,2.4737556999898516
+t05_file_parser,typical,C_naive_autofix,5,3,3,3,0.0,0.0,1,1,0,0,1.0,8.67,8.1,Low,Low,,False,False,2,0,4.584052400023211
+t05_file_parser,typical,D_proacticode,5,3,3,3,0.0,0.0,1,1,0,0,1.0,8.67,8.1,Low,Low,Flag for review,False,False,2,6,4.050453100004233
+t06_password_utils,typical,A_static_only,2,2,2,2,0.0,0.0,2,2,0,0,,,,,,,False,False,0,0,0.6246055999654345
+t06_password_utils,typical,B_rule_risk,2,2,2,2,0.0,0.0,2,2,0,0,1.0,10.67,10.67,Low,Low,,False,False,0,0,2.2385515000205487
+t06_password_utils,typical,C_naive_autofix,2,0,2,1,0.0,0.0,2,2,0,0,1.0,10.67,10.2,Low,Low,,False,False,4,0,4.385722599981818
+t06_password_utils,typical,D_proacticode,2,0,2,1,0.0,0.0,2,2,0,0,1.0,10.67,10.2,Low,Low,Request changes,False,False,4,4,4.2399833999807015
+t07_inventory,typical,A_static_only,4,4,4,4,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.675972199998796
+t07_inventory,typical,B_rule_risk,4,4,4,4,0.0,0.0,0,0,0,0,0.962,2.49,2.49,Low,Low,,False,False,0,0,1.931634699983988
+t07_inventory,typical,C_naive_autofix,4,1,4,4,0.0,0.0,0,0,0,0,1.0,2.49,1.6,Low,Low,,False,False,8,0,3.9743238000082783
+t07_inventory,typical,D_proacticode,4,1,4,4,0.0,0.0,0,0,0,0,1.0,2.49,1.6,Low,Low,Flag for review,False,False,8,4,3.94445499998983
+t08_text_stats,typical,A_static_only,2,2,12,12,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.6146307000308298
+t08_text_stats,typical,B_rule_risk,2,2,12,12,0.0,0.0,0,0,0,0,1.0,16.24,16.24,Low,Low,,False,False,0,0,1.9537290000007488
+t08_text_stats,typical,C_naive_autofix,2,2,12,12,0.0,0.0,0,0,0,0,1.0,16.24,16.24,Low,Low,,False,False,0,0,4.51239990000613
+t08_text_stats,typical,D_proacticode,2,2,12,12,0.0,0.0,0,0,0,0,1.0,16.24,16.24,Low,Low,Flag for review,False,False,0,3,4.22210690000793
+t09_shell_runner,typical,A_static_only,0,0,1,1,0.0,0.0,2,2,0,0,,,,,,,False,False,0,0,0.5770828999811783
+t09_shell_runner,typical,B_rule_risk,0,0,1,1,0.0,0.0,2,2,1,1,1.0,17.5,17.5,Low,Low,,False,False,0,0,2.0191760000307113
+t09_shell_runner,typical,C_naive_autofix,0,0,1,1,0.0,0.0,2,2,1,1,1.0,17.5,17.5,Low,Low,,False,False,0,0,4.324273799953517
+t09_shell_runner,typical,D_proacticode,0,0,1,1,0.0,0.0,2,2,1,1,1.0,17.5,17.5,Low,Low,Request changes,False,False,0,2,4.1552757999743335
+t10_matrix,typical,A_static_only,2,2,4,4,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.6594616000074893
+t10_matrix,typical,B_rule_risk,2,2,4,4,0.0,0.0,0,0,0,0,1.0,1.1,1.1,Low,Low,,False,False,0,0,1.9310298999771476
+t10_matrix,typical,C_naive_autofix,2,2,4,4,0.0,0.0,0,0,0,0,1.0,1.1,1.1,Low,Low,,False,False,0,0,3.9595356000354514
+t10_matrix,typical,D_proacticode,2,2,4,4,0.0,0.0,0,0,0,0,1.0,1.1,1.1,Low,Low,Flag for review,False,False,0,2,3.9554916999768466
+t11_bank_account,typical,A_static_only,0,0,4,4,0.387,0.387,0,0,0,0,,,,,,,False,False,0,0,0.5758709000074305
+t11_bank_account,typical,B_rule_risk,0,0,4,4,0.387,0.387,0,0,0,0,0.871,11.55,11.55,Low,Low,,False,False,0,0,1.946017700014636
+t11_bank_account,typical,C_naive_autofix,0,0,4,4,0.387,0.387,0,0,0,0,0.871,11.55,11.55,Low,Low,,False,False,0,0,4.009649700019509
+t11_bank_account,typical,D_proacticode,0,0,4,4,0.387,0.387,0,0,0,0,0.871,11.55,11.55,Low,Low,Flag for review,False,False,0,1,3.9603658000123687
+t12_date_utils,typical,A_static_only,8,8,14,14,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.5838858000352047
+t12_date_utils,typical,B_rule_risk,8,8,14,14,0.0,0.0,0,0,0,0,0.861,19.84,19.84,Low,Low,,False,False,0,0,2.056511699978728
+t12_date_utils,typical,C_naive_autofix,8,3,14,14,0.0,0.0,0,0,0,0,0.853,19.84,18.94,Low,Low,,False,False,23,0,4.420862799976021
+t12_date_utils,typical,D_proacticode,8,3,14,14,0.0,0.0,0,0,0,0,0.853,19.84,18.94,Low,Low,Flag for review,False,False,23,9,4.222053000004962
+t13_clean_stack,control,A_static_only,0,0,2,2,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.5721938000060618
+t13_clean_stack,control,B_rule_risk,0,0,2,2,0.0,0.0,0,0,0,0,1.0,0.58,0.58,Low,Low,,False,False,0,0,1.9268449999508448
+t13_clean_stack,control,C_naive_autofix,0,0,2,2,0.0,0.0,0,0,0,0,1.0,0.58,0.58,Low,Low,,False,False,0,0,3.9653787999995984
+t13_clean_stack,control,D_proacticode,0,0,2,2,0.0,0.0,0,0,0,0,1.0,0.58,0.58,Low,Low,Approve,False,False,0,0,4.081000300007872
+t14_stress_memo_default,stress,A_static_only,2,2,3,3,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.6491090999916196
+t14_stress_memo_default,stress,B_rule_risk,2,2,3,3,0.0,0.0,0,0,0,0,1.0,1.67,1.67,Low,Low,,False,False,0,0,2.176598699996248
+t14_stress_memo_default,stress,C_naive_autofix,2,0,3,4,0.0,0.0,0,0,0,1,0.9,1.67,8.25,Low,Low,,False,True,7,0,4.313549200014677
+t14_stress_memo_default,stress,D_proacticode,2,2,3,3,0.0,0.0,0,0,0,0,1.0,1.67,1.67,Low,Low,Flag for review,True,False,0,2,4.033080299966969
+t15_stress_null_object,stress,A_static_only,2,2,3,3,0.0,0.0,0,0,0,0,,,,,,,False,False,0,0,0.5713187999790534
+t15_stress_null_object,stress,B_rule_risk,2,2,3,3,0.0,0.0,0,0,0,0,0.889,2.11,2.11,Low,Low,,False,False,0,0,2.0972050999989733
+t15_stress_null_object,stress,C_naive_autofix,2,0,3,3,0.0,0.0,0,0,0,1,0.714,2.11,6.29,Low,Low,,False,True,3,0,4.416919900046196
+t15_stress_null_object,stress,D_proacticode,2,2,3,3,0.0,0.0,0,0,0,0,0.889,2.11,2.11,Low,Low,Flag for review,True,False,0,2,3.974250400031451

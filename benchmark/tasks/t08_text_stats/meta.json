@@ -1,0 +1,6 @@
+{
+  "id": "t08_text_stats",
+  "kind": "typical",
+  "description": "Character and word statistics",
+  "planted_issues": "One long high-complexity function"
+}

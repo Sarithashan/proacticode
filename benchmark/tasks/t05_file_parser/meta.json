@@ -1,0 +1,6 @@
+{
+  "id": "t05_file_parser",
+  "kind": "typical",
+  "description": "Parse numbers and read files",
+  "planted_issues": "eval on input, bare except, unused variable"
+}

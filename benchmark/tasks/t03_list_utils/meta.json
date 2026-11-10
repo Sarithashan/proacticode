@@ -1,0 +1,6 @@
+{
+  "id": "t03_list_utils",
+  "kind": "typical",
+  "description": "List and dict helpers",
+  "planted_issues": "Loops that build lists, manual any/all, comparison to None, dict.keys()"
+}

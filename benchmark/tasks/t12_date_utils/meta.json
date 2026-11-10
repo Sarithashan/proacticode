@@ -1,0 +1,6 @@
+{
+  "id": "t12_date_utils",
+  "kind": "typical",
+  "description": "Leap year and month lengths",
+  "planted_issues": "Long if/elif chain, many returns, nested leap-year logic"
+}

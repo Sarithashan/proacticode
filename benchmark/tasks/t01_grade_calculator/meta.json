@@ -1,0 +1,6 @@
+{
+  "id": "t01_grade_calculator",
+  "kind": "typical",
+  "description": "Grade letters and validation",
+  "planted_issues": "Deeply nested if/else, unused imports, needless bool return"
+}

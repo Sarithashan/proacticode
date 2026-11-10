@@ -1,0 +1,6 @@
+{
+  "id": "t10_matrix",
+  "kind": "typical",
+  "description": "Small matrix helpers",
+  "planted_issues": "Nested loops that build lists"
+}

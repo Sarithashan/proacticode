@@ -1,0 +1,6 @@
+{
+  "id": "t15_stress_null_object",
+  "kind": "stress",
+  "description": "Null object check",
+  "planted_issues": "Null-object with custom __eq__; the mechanical E711 fix (== None -> is None) breaks behaviour"
+}

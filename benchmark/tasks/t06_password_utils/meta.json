@@ -1,0 +1,6 @@
+{
+  "id": "t06_password_utils",
+  "kind": "typical",
+  "description": "Password hashing helpers",
+  "planted_issues": "MD5 hashing, hard-coded password, needless bool"
+}

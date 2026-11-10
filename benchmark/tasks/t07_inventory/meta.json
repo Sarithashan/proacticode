@@ -1,0 +1,6 @@
+{
+  "id": "t07_inventory",
+  "kind": "typical",
+  "description": "Inventory class",
+  "planted_issues": "Nested ifs with else, list-building loop"
+}
